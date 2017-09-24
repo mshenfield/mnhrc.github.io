@@ -114,6 +114,11 @@
             <div id="search_button">
                 <button onclick="showHideLocations()"value="SEARCH" id="search_button">SEARCH</button>
             </div>
+            <div id="languages">
+                <button class="language-select" onclick="translator.switch('en')">English</button>
+                <button class="language-select" onclick="translator.switch('es')">Español (Spanish)</button>
+                <button class="language-select" onclick="translator.switch('ar')">عربى (Arabic)</button>
+            </div>
             <div id="aboutLink">
                 About this App
             </div>
@@ -197,6 +202,7 @@
         <!--onload="this.onload=function(){};handleClientLoad()"-->
         <!--onreadystatechange="if (this.readyState === 'complete') this.onload()">-->
     <!--</script>-->
+    <script src="translate_bot.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
